@@ -1,0 +1,13 @@
+{
+  "name": "instances",
+  "version": "1.0.0",
+  "description": "Instances of TXTDot proxies",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "artegoser <me@artegoser.ru> blog.artegoser.ru",
+  "license": "MIT"
+}
