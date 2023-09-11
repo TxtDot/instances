@@ -10,9 +10,11 @@ Instances of TXTDot proxies
 
 | Name | Base URL | Secure |
 | ---- | -------- | ------ |
-${instances.map(
-  (instance) =>
-    `| ${instance.name} | <${instance.baseUrl}> | ${instance.secure} |`
-)}
+${instances
+  .map(
+    (instance) =>
+      `| ${instance.name} | <${instance.baseUrl}> | ${instance.secure} |`
+  )
+  .join("\n")}
 `
 );

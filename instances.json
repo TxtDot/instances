@@ -3,5 +3,10 @@
     "name": "Official TXTDot instance",
     "baseUrl": "https://txt.dc09.ru",
     "secure": true
+  },
+  {
+    "name": "Official TXTDot instance by artegoser",
+    "baseUrl": "https://txt.artegoser.ru",
+    "secure": true
   }
 ]
