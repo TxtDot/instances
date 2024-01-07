@@ -2,16 +2,19 @@
   {
     "name": "Official TXTDot instance",
     "baseUrl": "https://txt.dc09.ru",
-    "HTTPS": true
+    "HTTPS": true,
+    "search": false
   },
   {
     "name": "Official TXTDot instance by artegoser",
     "baseUrl": "https://txt.artegoser.ru",
-    "HTTPS": true
+    "HTTPS": true,
+    "search": true
   },
   {
     "name": "Instance by bloatcat",
     "baseUrl": "https://txt.bloat.cat",
-    "HTTPS": true
+    "HTTPS": true,
+    "search": false
   }
 ]
