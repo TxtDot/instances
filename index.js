@@ -8,12 +8,12 @@ fs.writeFileSync(
 
 Instances of TXTDot proxies
 
-| Name | Base URL | Secure |
+| Name | Base URL | HTTPS |
 | ---- | -------- | ------ |
 ${instances
   .map(
     (instance) =>
-      `| ${instance.name} | <${instance.baseUrl}> | ${instance.secure} |`
+      `| ${instance.name} | <${instance.baseUrl}> | ${instance.HTTPS} |`
   )
   .join("\n")}
 `
