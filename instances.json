@@ -1,20 +1,26 @@
 [
   {
-    "name": "Official TXTDot instance",
+    "name": "Official 1",
     "baseUrl": "https://txt.dc09.ru",
     "HTTPS": true,
-    "search": false
+    "search": true
   },
   {
-    "name": "Official TXTDot instance by artegoser",
+    "name": "Official 2",
     "baseUrl": "https://txt.artegoser.ru",
     "HTTPS": true,
     "search": true
   },
   {
-    "name": "Instance by bloatcat",
+    "name": "Bloatcat",
     "baseUrl": "https://txt.bloat.cat",
     "HTTPS": true,
     "search": false
+  },
+  {
+    "name": "Clovius club",
+    "baseUrl": "https://txt.clovius.club",
+    "HTTPS": true,
+    "search": true
   }
 ]
