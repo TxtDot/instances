@@ -6,5 +6,5 @@ Instances of TXTDot proxies
 | ------------ | -------------------------- | ------- | ---------- |
 | Official 1   | <https://txt.dc09.ru>      | enabled | https      |
 | Official 2   | <https://txt.artegoser.ru> | enabled | https      |
-| Bloatcat     | <https://txt.bloat.cat>    |         | https      |
+| Bloatcat     | <https://txt.bloat.cat>    | enabled | https      |
 | Clovius club | <https://txt.clovius.club> | enabled | https      |
