@@ -1,10 +1,6 @@
-# instances
+# Instances of TXTDot proxies
 
-Instances of TXTDot proxies
-
-| Name         | Base URL                   | Search  | Connection |
-| ------------ | -------------------------- | ------- | ---------- |
-| Official 1   | <https://txt.dc09.ru>      | enabled | https      |
-| Official 2   | <https://txt.artegoser.ru> | enabled | https      |
-| Bloatcat     | <https://txt.bloat.cat>    | enabled | https      |
-| Clovius club | <https://txt.clovius.club> | enabled | https      |
+- <https://txt.dc09.ru> ![search](https://img.shields.io/badge/search-enabled-blue) ![protocol](https://img.shields.io/badge/protocol-https-blue)
+- <https://txt.artegoser.ru> ![search](https://img.shields.io/badge/search-enabled-blue) ![protocol](https://img.shields.io/badge/protocol-https-blue)
+- <https://txt.bloat.cat> ![search](https://img.shields.io/badge/search-enabled-blue) ![protocol](https://img.shields.io/badge/protocol-https-blue)
+- <https://txt.clovius.club> ![search](https://img.shields.io/badge/search-enabled-blue) ![protocol](https://img.shields.io/badge/protocol-https-blue)
