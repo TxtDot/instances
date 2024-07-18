@@ -4,12 +4,7 @@
     "HTTPS": true,
     "search": true
   },
-  {
-    "baseUrl": "https://txt.artegoser.ru",
-    "HTTPS": true,
-    "search": true
-  },
-  {
+ {
     "baseUrl": "https://txt.bloat.cat",
     "HTTPS": true,
     "search": true

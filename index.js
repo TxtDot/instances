@@ -15,8 +15,7 @@ function static(label, text) {
 async function run() {
   fs.writeFileSync(
     "README.md",
-    `# Instances of TXTDot proxies
-    \r${(
+    `# Instances of TXTDot proxies\n\n${(
       await Promise.all(
         instances.map(async (instance) => {
           if (typeof instance === "string") {
