@@ -18,5 +18,10 @@
     "baseUrl": "https://txt.clovius.club",
     "HTTPS": true,
     "search": true
+  },
+  {
+    "baseUrl": "https://txtd.lumaeris.com/",
+    "HTTPS": true,
+    "search": false
   }
 ]
