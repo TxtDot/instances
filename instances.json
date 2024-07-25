@@ -1,10 +1,6 @@
 [
+  "https://txt.dc09.ru",
   {
-    "baseUrl": "https://txt.dc09.ru",
-    "HTTPS": true,
-    "search": true
-  },
- {
     "baseUrl": "https://txt.bloat.cat",
     "HTTPS": true,
     "search": true
