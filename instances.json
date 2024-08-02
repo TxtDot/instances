@@ -1,18 +1,6 @@
 [
   "https://txt.dc09.ru",
-  {
-    "baseUrl": "https://txt.bloat.cat",
-    "HTTPS": true,
-    "search": true
-  },
-  {
-    "baseUrl": "https://txt.clovius.club",
-    "HTTPS": true,
-    "search": true
-  },
-  {
-    "baseUrl": "https://txtd.lumaeris.com/",
-    "HTTPS": true,
-    "search": false
-  }
+  "https://txt.bloat.cat",
+  "https://txt.clovius.club",
+  "https://txtd.lumaeris.com/"
 ]

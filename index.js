@@ -41,16 +41,8 @@ async function run() {
                 "proxy.img_compress"
               )}`;
             } catch {
-              return `- <${instance}>`;
+              return `- <${instance}> (unsupported configuration version)`;
             }
-          } else {
-            return `- <${instance.baseUrl}> ${
-              instance.search ? static("search", "enabled") : ""
-            } ${
-              instance.HTTPS
-                ? static("protocol", "https")
-                : static("protocol", "http")
-            }`;
           }
         })
       )
