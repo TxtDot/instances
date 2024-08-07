@@ -20,29 +20,24 @@ async function run() {
         instances.map(async (instance) => {
           if (typeof instance === "string") {
             const config_url = instance + "/configuration/json";
-            try {
-              await fetch(config_url).then((res) => res.json());
+            return `- <${instance}> ${badge(
+              config_url,
+              "version",
+              "version"
+            )} ${badge(config_url, "protocol", "protocol")} ${badge(
+              config_url,
+              "searx",
+              "third_party.searx_url"
+            )} ${badge(
+              config_url,
+              "webder",
+              "third_party.webder_url"
+            )} ${badge(
+              config_url,
+              "image compression",
+              "proxy.img_compress"
+            )}`;
 
-              return `- <${instance}> ${badge(
-                config_url,
-                "version",
-                "version"
-              )} ${badge(config_url, "protocol", "protocol")} ${badge(
-                config_url,
-                "searx",
-                "third_party.searx_url"
-              )} ${badge(
-                config_url,
-                "webder",
-                "third_party.webder_url"
-              )} ${badge(
-                config_url,
-                "image compression",
-                "proxy.img_compress"
-              )}`;
-            } catch {
-              return `- <${instance}> (unsupported configuration version)`;
-            }
           }
         })
       )
