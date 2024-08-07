@@ -8,19 +8,15 @@ function badge(url, label, path) {
   )}&query=${encodeURIComponent(path)}&label=${encodeURIComponent(label)})`;
 }
 
-function static(label, text) {
-  return `![${label}](https://img.shields.io/badge/${label}-${text}-blue)`;
-}
-
 async function run() {
   fs.writeFileSync(
     "README.md",
-    `# Instances of TXTDot proxies\n\n${(
-      await Promise.all(
-        instances.map(async (instance) => {
+    `# Instances of TXTDot proxies\n\n|link|tags|\n|-|-|\n${(
+
+        instances.map((instance) => {
           if (typeof instance === "string") {
             const config_url = instance + "/configuration/json";
-            return `- <${instance}> ${badge(
+            return `|<${instance}>|${badge(
               config_url,
               "version",
               "version"
@@ -36,12 +32,12 @@ async function run() {
               config_url,
               "image compression",
               "proxy.img_compress"
-            )}`;
+            )}|`;
 
           }
         })
       )
-    ).join("\n")}
+.join("\n")}
   `
   );
 }
